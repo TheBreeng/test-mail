@@ -43,6 +43,7 @@
         table td {
             padding: 0;
             border-collapse: collapse;
+            word-wrap: break-word;
         }
 
         table {
@@ -51,24 +52,21 @@
             mso-table-rspace: 0pt;
         }
 
-        .wrapper {
-            width: 100%;
-            table-layout: fixed;
-        }
-
         .outer {
             Margin: 0 auto;
             width: 95%;
             max-width: 600px;
-}
+        }
 
         .banner {
             width: 100%;
             max-width: 600px;
+            height: auto;
+            max-height: 725px;
             background-image: url('https://github.com/TheBreeng/test-mail/blob/master/img/bnr.png?raw=true');
             background-repeat: no-repeat;
             background-color: #ffe6e6;
-            background-size: cover;
+            background-size: 100% 100%;
         }
 
         .logo1,
@@ -134,7 +132,7 @@
             line-height: 28px;
         }
 
-        .body a {
+        .block-text a {
             color: #476FC6 !important;
         }
 
@@ -162,6 +160,36 @@
             line-height: 16px;
             text-decoration: none !important;
         }
+
+        .three-column {
+            text-align: center;
+            font-size: 0;
+        }
+
+        .three-column .column {
+            width: 100%;
+            max-width: 170px;
+            display: inline-block;
+            vertical-align: top;
+        }
+
+        .three-column a {
+            font-size: 16px;
+            text-align: center;
+            color: #476FC6 !important;
+        }
+
+        .two-column {
+            text-align: center;
+            font-size: 0;
+        }
+
+        .two-column .column {
+            width: 100%;
+            max-width: 245px;
+            display: inline-block;
+            vertical-align: top;
+        }
     </style>
 </head>
 
@@ -171,12 +199,14 @@
     <table cellpadding="0" cellspacing="0" width="100%" bgcolor="#E5E5E5">
         <tr>
             <td>
-                <table class="outer" cellpadding="0" cellspacing="0" width="600" align="center">
+                <table>
                     <tr>
                         <td height="40" width="600"></td>
                     </tr>
+                </table>
+                <table class="outer" cellpadding="0" cellspacing="0" align="center" bgcolor="#ffffff">
                     <tr>
-                        <td class="banner" width="600" height="725" valign="top">
+                        <td class="banner" width="600" valign="top">
                             <table cellpadding="0" cellspacing="0" width="320" align="center">
                                 <tr>
                                     <td height="15"></td>
@@ -329,283 +359,410 @@
                                     </td>
                                 </tr>
 
+                                <tr>
+                                    <td height="150"></td>
+                                </tr>
+
                             </table>
                         </td>
                     </tr>
 
                     <tr>
-                        <td class="body" width="600" valign="top" bgcolor="#ffffff">
-                            <table class="table-500" cellpadding="0" cellspacing="0" width="500" align="center">
+                        <td height="55"></td>
+                    </tr>
 
+                    <tr>
+                        <td class="block-text">
+                            <table width="100%" style="max-width: 500px;" align="center">
                                 <tr>
-                                    <td height="55"></td>
-                                </tr>
-
-                                <tr>
-                                    <td>
-                                        <table cellpadding="0" cellspacing="0" width="500" align="center">
-                                            <td class="block-text">
-                                                <p style="font-family: Arial, Helvetica, sans-serif;">
-                                                    Здравствуйте!
-                                                    <br />
-                                                    <br />
-                                                    Теперь, когда вы готовы к школе и обновили спальни своих малышей,
-                                                    пришла пора подумать о себе. Возможно, настало время поменять
-                                                    подушку или вы давно собирались купить <a href="#">шерстяное
-                                                        одеяло</a> на тот
-                                                    период, когда по ночам уже холодает, а отопление ещё не включили.
-                                                    <br />
-                                                    <br />
-                                                    В конце концов, порадуйте себя новым комплектом <a href="#">мягкого
-                                                        постельного
-                                                        белья</a> или <a href="">красивым уютным пледом</a>! Но
-                                                    торопитесь, <strong>скидка 10%</strong> на все
-                                                    эти радости будет действовать только <strong>до 13:00</strong>.
-                                                </p>
-                                            </td>
-                                        </table>
+                                    <td class="inner contents">
+                                        <p style="font-family: Arial, Helvetica, sans-serif;">
+                                            Здравствуйте!
+                                            <br />
+                                            <br />
+                                            Теперь, когда вы готовы к школе и обновили спальни своих малышей,
+                                            пришла пора подумать о себе. Возможно, настало время поменять
+                                            подушку или вы давно собирались купить <a href="#">шерстяное
+                                                одеяло</a> на тот
+                                            период, когда по ночам уже холодает, а отопление ещё не включили.
+                                            <br />
+                                            <br />
+                                            В конце концов, порадуйте себя новым комплектом <a href="#">мягкого
+                                                постельного
+                                                белья</a> или <a href="">красивым уютным пледом</a>! Но
+                                            торопитесь, <strong>скидка 10%</strong> на все
+                                            эти радости будет действовать только <strong>до 13:00</strong>.
+                                        </p>
                                     </td>
-                                </tr>
-
-                                <tr>
-                                    <td height="40"></td>
-                                </tr>
-
-                                <tr>
-                                    <td align="center">
-                                        <table cellpadding="0" cellspacing="0" width="500">
-                                            <tr>
-                                                <td align="left">
-                                                    <table cellpadding="0" cellspacing="0">
-                                                        <tr>
-                                                            <td>
-                                                                <a href="#">
-                                                                    <img src="https://github.com/TheBreeng/test-mail/blob/master/img/good1.png?raw=true" alt="good1" height="113" />
-                                                                </a>
-                                                            </td>
-                                                        </tr>
-                                                        <tr>
-                                                            <td height="20"></td>
-                                                        </tr>
-                                                        <tr>
-                                                            <td align="center">
-                                                                <a href="#"
-                                                                    style="font-family: Arial, Helvetica, sans-serif;">
-                                                                    Подушки</a>
-                                                            </td>
-                                                        </tr>
-                                                    </table>
-                                                </td>
-                                                <td align="center">
-                                                    <table cellpadding="0" cellspacing="0">
-                                                        <tr>
-                                                            <td>
-                                                                <a href="#">
-                                                                    <img src="https://github.com/TheBreeng/test-mail/blob/master/img/good2.png?raw=true" alt="good2" height="113" />
-                                                                </a>
-                                                            </td>
-                                                        </tr>
-                                                        <tr>
-                                                            <td height="20"></td>
-                                                        </tr>
-                                                        <tr>
-                                                            <td align="center">
-                                                                <a href="#"
-                                                                    style="font-family: Arial, Helvetica, sans-serif;">
-                                                                    Одеяла</a>
-                                                            </td>
-                                                        </tr>
-                                                    </table>
-                                                </td>
-                                                <td align="right">
-                                                    <table cellpadding="0" cellspacing="0">
-                                                        <tr>
-                                                            <td>
-                                                                <a href="#">
-                                                                    <img src="https://github.com/TheBreeng/test-mail/blob/master/img/good3.png?raw=true" alt="good3" height="113" />
-                                                                </a>
-                                                            </td>
-                                                        </tr>
-                                                        <tr>
-                                                            <td height="20"></td>
-                                                        </tr>
-                                                        <tr>
-                                                            <td align="center">
-                                                                <a href="#"
-                                                                    style="font-family: Arial, Helvetica, sans-serif;">
-                                                                    Постельное бельё</a>
-                                                            </td>
-                                                        </tr>
-                                                    </table>
-                                                </td>
-                                            </tr>
-                                        </table>
-                                    </td>
-                                </tr>
-
-                                <tr>
-                                    <td height="40"></td>
-                                </tr>
-
-                                <tr>
-                                    <td align="center">
-                                        <table cellpadding="0" cellspacing="0" width="500">
-                                            <tr>
-                                                <td align="left">
-                                                    <table cellpadding="0" cellspacing="0">
-                                                        <tr>
-                                                            <td>
-                                                                <a href="#">
-                                                                    <img src="https://github.com/TheBreeng/test-mail/blob/master/img/good4.png?raw=true" alt="good4" height="113" />
-                                                                </a>
-                                                            </td>
-                                                        </tr>
-                                                        <tr>
-                                                            <td height="20"></td>
-                                                        </tr>
-                                                        <tr>
-                                                            <td align="center">
-                                                                <a href="#"
-                                                                    style="font-family: Arial, Helvetica, sans-serif;">
-                                                                    Пледы и покрывала</a>
-                                                            </td>
-                                                        </tr>
-                                                    </table>
-                                                </td>
-                                                <td align="center">
-                                                    <table cellpadding="0" cellspacing="0">
-                                                        <tr>
-                                                            <td>
-                                                                <a href="#">
-                                                                    <img src="https://github.com/TheBreeng/test-mail/blob/master/img/good5.png?raw=true" alt="good5" height="113" />
-                                                                </a>
-                                                            </td>
-                                                        </tr>
-                                                        <tr>
-                                                            <td height="20"></td>
-                                                        </tr>
-                                                        <tr>
-                                                            <td align="center">
-                                                                <a href="#"
-                                                                    style="font-family: Arial, Helvetica, sans-serif;">
-                                                                    Ванная</a>
-                                                            </td>
-                                                        </tr>
-                                                    </table>
-                                                </td>
-                                                <td align="right">
-                                                    <table cellpadding="0" cellspacing="0">
-                                                        <tr>
-                                                            <td>
-                                                                <a href="#">
-                                                                    <img src="https://github.com/TheBreeng/test-mail/blob/master/img/good6.png?raw=true" alt="good6" height="113" />
-                                                                </a>
-                                                            </td>
-                                                        </tr>
-                                                        <tr>
-                                                            <td height="20"></td>
-                                                        </tr>
-                                                        <tr>
-                                                            <td align="center">
-                                                                <a href="#"
-                                                                    style="font-family: Arial, Helvetica, sans-serif;">
-                                                                    Кухня</a>
-                                                            </td>
-                                                        </tr>
-                                                    </table>
-                                                </td>
-                                            </tr>
-                                        </table>
-                                    </td>
-                                </tr>
-
-                                <tr>
-                                    <td height="40"></td>
-                                </tr>
-
-                                <tr>
-                                    <td align="center">
-                                        <span class="button">
-                                            <a href="#" style="font-family: Arial, Helvetica, sans-serif;">
-                                                В магазин
-                                            </a>
-                                        </span>
-                                    </td>
-                                </tr>
-
-                                <tr>
-                                    <td height="70"></td>
-                                </tr>
-
-                                <tr>
-                                    <td class="block-descr" align="center" style="font-family:'Helvetica Neue', arial;">
-                                        <p>Промокод действует на все товары, кроме разделов «Кровати» и «Матрасы». Cкидка не суммируется со скидками на сайте, скидками и подарками по другим промокодам и дисконтным картам. Размер скидки зависит от времени оформления заказаю.</p>
-                                    </td>
-                                </tr>
-
-                                <tr>
-                                    <td height="40"></td>
                                 </tr>
                             </table>
-
-                            <tr>
-                                <td height="40"></td>
-                            </tr>
-
-                            <tr>
-                                <td class="block-social">
-                                    <table cellpadding="0" cellspacing="0" width="500" align="center">
-                                        <tr>
-                                            <td><a href="#"><img src="https://github.com/TheBreeng/test-mail/blob/master/img/vk.png?raw=true" alt="vk" height="25"></a></td>
-                                            <td><a href="#"><img src="https://github.com/TheBreeng/test-mail/blob/master/img/fb.png?raw=true" alt="fb" height="25"></a></td>
-                                            <td><a href="#"><img src="https://github.com/TheBreeng/test-mail/blob/master/img/tw.png?raw=true" alt="tw" height="25"></a></td>
-                                            <td><a href="#"><img src="https://github.com/TheBreeng/test-mail/blob/master/img/in.png?raw=true" alt="in" height="25"></a></td>
-                                            <td><a href="#"><img src="https://github.com/TheBreeng/test-mail/blob/master/img/yt.png?raw=true" alt="yt" height="25"></a></td>
-                                            <td><a href="#"><img src="https://github.com/TheBreeng/test-mail/blob/master/img/ok.png?raw=true" alt="ok" height="25"></a></td>
-                                            <td width="50"></td>
-                                            <td>
-                                                <p style="font-family: Arial, Helvetica, sans-serif;">8 800 555 60 55</p>
-                                            </td>
-                                        </tr>
-                                    </table>
-                                </td>
-                            </tr>
-
-                            <tr>
-                                <td height="30"></td>
-                            </tr>
-
-                            <tr>
-                                <td class="footer-text" align="center">
-                                    <p style="font-family: Arial, Helvetica, sans-serif;">Данное письмо было отправлено на hafizova.i@gmail.com. Пожалуйста, добавьте
-                                        mailer@spim.ru в вашу адресную книгу, чтобы наши письма не попадали в спам.</p>
-                                </td>
-                            </tr>
-
-                            <tr>
-                                <td height="30"></td>
-                            </tr>
-
-                            <tr>
-                                <td class="block-gr" align="center">
-                                    <table cellpadding="0" cellspacing="0" width="240">
-                                        <td align="center"><a href="#"><img src="https://github.com/TheBreeng/test-mail/blob/master/img/x.png?raw=true" alt="x" height="12"></a></td>
-                                        <td width="5"></td>
-                                        <td align="center"><a href="#" style="font-family: Arial, Helvetica, sans-serif;">Отписаться</a></td>
-                                        <td width="55"></td>
-                                        <td align="center"><a href="#"><img src="https://github.com/TheBreeng/test-mail/blob/master/img/web.png?raw=true" alt="web" height="12"></a></td>
-                                        <td width="5"></td>
-                                        <td align="center"><a href="#" style="font-family: Arial, Helvetica, sans-serif;">Веб-версия</a></td>
-                                    </table>
-                                </td>
-                            </tr>
-
-                            <tr>
-                                <td height="25"></td>
-                            </tr>
                         </td>
                     </tr>
-                </table> 
+
+                    <tr>
+                        <td height="40"></td>
+                    </tr>
+
+                    <tr>
+                        <td class="three-column" width="100%" style="max-width: 500px;" align="center">
+                            <!--[if (gte mso 9)|(IE)]>
+                            <table width="100%">
+                            <tr>
+                            <td width="200" valign="top">
+                            <![endif]-->
+                            <table class="column">
+                                <tr>
+                                    <td class="inner">
+                                        <table class="contents">
+                                            <tr>
+                                                <td>
+                                                    <a href="#">
+                                                        <img src="https://github.com/TheBreeng/test-mail/blob/master/img/good1.png?raw=true"
+                                                            alt="good1" width="150" />
+                                                    </a>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td height="20"></td>
+                                            </tr>
+                                            <tr>
+                                                <td>
+                                                    <a href="#" style="font-family: Arial, Helvetica, sans-serif;">
+                                                        Подушки</a>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td height="40"></td>
+                                            </tr>
+                                        </table>
+                                    </td>
+                                </tr>
+                            </table>
+                            <!--[if (gte mso 9)|(IE)]>
+                            </td><td width="200" valign="top">
+                            <![endif]-->
+                            <table class="column">
+                                <tr>
+                                    <td class="inner">
+                                        <table class="contents">
+                                            <tr>
+                                                <td>
+                                                    <a href="#">
+                                                        <img src="https://github.com/TheBreeng/test-mail/blob/master/img/good2.png?raw=true"
+                                                            alt="good2" width="150" />
+                                                    </a>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td height="20"></td>
+                                            </tr>
+                                            <tr>
+                                                <td>
+                                                    <a href="#" style="font-family: Arial, Helvetica, sans-serif;">
+                                                        Одеяла</a>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td height="40"></td>
+                                            </tr>
+                                        </table>
+                                    </td>
+                                </tr>
+                            </table>
+                            <!--[if (gte mso 9)|(IE)]>
+                            </td><td width="200" valign="top">
+                            <![endif]-->
+                            <table class="column">
+                                <tr>
+                                    <td class="inner">
+                                        <table class="contents">
+                                            <tr>
+                                                <td>
+                                                    <a href="#">
+                                                        <img src="https://github.com/TheBreeng/test-mail/blob/master/img/good3.png?raw=true"
+                                                            alt="good3" width="150" />
+                                                    </a>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td height="20"></td>
+                                            </tr>
+                                            <tr>
+                                                <td>
+                                                    <a href="#" style="font-family: Arial, Helvetica, sans-serif;">
+                                                        Постельное бельё</a>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td height="40"></td>
+                                            </tr>
+                                        </table>
+                                    </td>
+                                </tr>
+                            </table>
+                            <!--[if (gte mso 9)|(IE)]>
+                            </td>
+                            </tr>
+                            </table>
+                            <![endif]-->
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="three-column">
+                            <!--[if (gte mso 9)|(IE)]>
+                            <table width="100%">
+                            <tr>
+                            <td width="200" valign="top">
+                            <![endif]-->
+                            <table class="column">
+                                <tr>
+                                    <td class="inner">
+                                        <table class="contents">
+                                            <tr>
+                                                <td>
+                                                    <a href="#">
+                                                        <img src="https://github.com/TheBreeng/test-mail/blob/master/img/good4.png?raw=true"
+                                                            alt="good4" width="150" />
+                                                    </a>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td height="20"></td>
+                                            </tr>
+                                            <tr>
+                                                <td>
+                                                    <a href="#" style="font-family: Arial, Helvetica, sans-serif;">
+                                                        Подушки</a>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td height="40"></td>
+                                            </tr>
+                                        </table>
+                                    </td>
+                                </tr>
+                            </table>
+                            <!--[if (gte mso 9)|(IE)]>
+                            </td><td width="200" valign="top">
+                            <![endif]-->
+                            <table class="column">
+                                <tr>
+                                    <td class="inner">
+                                        <table class="contents">
+                                            <tr>
+                                                <td>
+                                                    <a href="#">
+                                                        <img src="https://github.com/TheBreeng/test-mail/blob/master/img/good5.png?raw=true"
+                                                            alt="good5" width="150" />
+                                                    </a>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td height="20"></td>
+                                            </tr>
+                                            <tr>
+                                                <td>
+                                                    <a href="#" style="font-family: Arial, Helvetica, sans-serif;">
+                                                        Одеяла</a>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td height="40"></td>
+                                            </tr>
+                                        </table>
+                                    </td>
+                                </tr>
+                            </table>
+                            <!--[if (gte mso 9)|(IE)]>
+                            </td><td width="200" valign="top">
+                            <![endif]-->
+                            [<table class="column">
+                                <tr>
+                                    <td class="inner">
+                                        <table class="contents">
+                                            <tr>
+                                                <td>
+                                                    <a href="#">
+                                                        <img src="https://github.com/TheBreeng/test-mail/blob/master/img/good6.png?raw=true"
+                                                            alt="good6" width="150" />
+                                                    </a>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td height="20"></td>
+                                            </tr>
+                                            <tr>
+                                                <td>
+                                                    <a href="#" style="font-family: Arial, Helvetica, sans-serif;">
+                                                        Постельное бельё</a>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td height="40"></td>
+                                            </tr>
+                                        </table>
+                                    </td>
+                                </tr>
+                            </table>
+                            <!--[if (gte mso 9)|(IE)]>
+                            </td>
+                            </tr>
+                            </table>
+                            <![endif]-->
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td align="center">
+                            <span class="button">
+                                <a href="#" style="font-family: Arial, Helvetica, sans-serif;">
+                                    В магазин
+                                </a>
+                            </span>
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td height="70"></td>
+                    </tr>
+
+                    <tr>
+                        <td class="block-descr" style="font-family:'Helvetica Neue', arial;">
+                            <table width="100%" style="max-width: 500px;" align="center">
+                                <tr>
+                                    <td class="inner contents" align="center">
+                                        <p>Промокод действует на все товары, кроме разделов «Кровати» и «Матрасы».
+                                            Cкидка не суммируется со скидками на сайте, скидками и подарками по другим
+                                            промокодам и дисконтным картам. Размер скидки зависит от времени оформления
+                                            заказаю.</p>
+                                    </td>
+                                </tr>
+                            </table>
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td height="40"></td>
+                    </tr>
+                </table>
+
+                <table align="center" width="100%" style="max-width: 550px;">
+                    <tr>
+                        <td class="two-column block-social"  width="100%" style="max-width: 550px;" align="center">
+                            <!--[if (gte mso 9)|(IE)]>
+                            <table width="100%">
+                            <tr>
+                            <td width="50%" valign="top">
+                            <![endif]-->
+                            <div class="column">
+                                <table align="center">
+                                    <tr>
+                                        <tr>
+                                            <td height="40"></td>
+                                        </tr>
+                                        <td class="inner">
+                                            <table class="contents">
+                                                <tr>
+                                                    <td width="10"></td>
+                                                    <td><a href="#"><img
+                                                                src="https://github.com/TheBreeng/test-mail/blob/master/img/vk.png?raw=true"
+                                                                alt="vk" height="25"></a></td>
+                                                                <td width="15"></td>
+                                                    <td><a href="#"><img
+                                                                src="https://github.com/TheBreeng/test-mail/blob/master/img/fb.png?raw=true"
+                                                                alt="fb" height="25"></a></td>
+                                                                <td width="15"></td>
+                                                    <td><a href="#"><img
+                                                                src="https://github.com/TheBreeng/test-mail/blob/master/img/tw.png?raw=true"
+                                                                alt="tw" height="25"></a></td>
+                                                                <td width="15"></td>
+                                                    <td><a href="#"><img
+                                                                src="https://github.com/TheBreeng/test-mail/blob/master/img/in.png?raw=true"
+                                                                alt="in" height="25"></a></td>
+                                                                <td width="15"></td>
+                                                    <td><a href="#"><img
+                                                                src="https://github.com/TheBreeng/test-mail/blob/master/img/yt.png?raw=true"
+                                                                alt="yt" height="25"></a></td>
+                                                                <td width="15"></td>
+                                                    <td><a href="#"><img
+                                                                src="https://github.com/TheBreeng/test-mail/blob/master/img/ok.png?raw=true"
+                                                                alt="ok" height="25"></a></td>
+                                                </tr>
+                                            </table>
+                                        </td>
+                                    </tr>
+                                </table>
+                            </div>
+                            <!--[if (gte mso 9)|(IE)]>
+                            </td><td width="50%" valign="top">
+                            <![endif]-->
+                            <div class="column">
+                                <table align="center">
+                                    <tr>
+                                        <td height="40"></td>
+                                    </tr>
+                                    <tr>
+                                        <td class="inner">
+                                            <table class="contents">
+                                                <tr>
+                                                    <td>
+                                                        <p style="font-family: Arial, Helvetica, sans-serif;">8 800 555
+                                                            60 55</p>
+                                                    </td>
+                                                </tr>
+                                            </table>
+                                        </td>
+                                    </tr>
+                                </table>
+                            </div>
+                            <!--[if (gte mso 9)|(IE)]>
+                            </td>
+                            </tr>
+                            </table>
+                            <![endif]-->
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td height="30"></td>
+                    </tr>
+
+                    <tr>
+                        <td class="footer-text" align="center">
+                            <p style="font-family: Arial, Helvetica, sans-serif;">Данное письмо было отправлено на
+                                hafizova.i@gmail.com. Пожалуйста, добавьте
+                                mailer@spim.ru в вашу адресную книгу, чтобы наши письма не попадали в спам.</p>
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td height="30"></td>
+                    </tr>
+
+                    <tr>
+                        <td class="block-gr" align="center">
+                            <table cellpadding="0" cellspacing="0" width="240">
+                                <td align="center"><a href="#"><img
+                                            src="https://github.com/TheBreeng/test-mail/blob/master/img/x.png?raw=true"
+                                            alt="x" height="12"></a></td>
+                                <td width="5"></td>
+                                <td align="center"><a href="#"
+                                        style="font-family: Arial, Helvetica, sans-serif;">Отписаться</a></td>
+                                <td width="55"></td>
+                                <td align="center"><a href="#"><img
+                                            src="https://github.com/TheBreeng/test-mail/blob/master/img/web.png?raw=true"
+                                            alt="web" height="12"></a></td>
+                                <td width="5"></td>
+                                <td align="center"><a href="#"
+                                        style="font-family: Arial, Helvetica, sans-serif;">Веб-версия</a></td>
+                            </table>
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td height="25"></td>
+                    </tr>
+                </table>
             </td>
         </tr>
     </table>
