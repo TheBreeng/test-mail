@@ -9,6 +9,8 @@
     <link href="https://fonts.googleapis.com/css?family=Raleway:300,400,500,600,800" rel="stylesheet" />
     <style>
         body {
+            background-color: #E5E5E5;
+            min-width: 100%;
             width: 100% !important;
             -webkit-text-size-adjust: 100%;
             -ms-text-size-adjust: 100%;
@@ -39,6 +41,7 @@
         }
 
         table td {
+            padding: 0;
             border-collapse: collapse;
         }
 
@@ -48,11 +51,24 @@
             mso-table-rspace: 0pt;
         }
 
+        .wrapper {
+            width: 100%;
+            table-layout: fixed;
+        }
+
+        .outer {
+            Margin: 0 auto;
+            width: 95%;
+            max-width: 600px;
+}
+
         .banner {
+            width: 100%;
+            max-width: 600px;
             background-image: url('https://github.com/TheBreeng/test-mail/blob/master/img/bnr.png?raw=true');
             background-repeat: no-repeat;
             background-color: #ffe6e6;
-            background-size: contain;
+            background-size: cover;
         }
 
         .logo1,
@@ -155,7 +171,7 @@
     <table cellpadding="0" cellspacing="0" width="100%" bgcolor="#E5E5E5">
         <tr>
             <td>
-                <table class="main table-600" cellpadding="0" cellspacing="0" width="600" align="center">
+                <table class="outer" cellpadding="0" cellspacing="0" width="600" align="center">
                     <tr>
                         <td height="40" width="600"></td>
                     </tr>
