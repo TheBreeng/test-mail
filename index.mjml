@@ -1,0 +1,228 @@
+<mjml>
+  <mj-head>
+    <mj-title>Mailfit — Тестовое задание для верстальщика — Руслан Фахуртдинов</mj-title>
+    <mj-attributes>
+      <mj-section padding="10px" />
+      <mj-text padding="0" font-family="Arial, Helvetica, sans-serif" />
+      <mj-image padding="0" />
+      <mj-button background-color="#2ABE80" border-radius="50px" font-size="20px" color="#ffffff" font-family="Arial, Helvetica, sans-serif" height="40px" />
+      <mj-class name="block-conditions" vertical-align="middle" padding="0" />
+      <mj-class name="percent" font-family="'Raleway'" font-size="40px" font-weight="700" color="#2E2E2E" align="center" />
+      <mj-class name="time" font-family="'Arial', sans-serif" font-size="14px" align="center" />
+      <mj-class name="links" color="#476FC6" text-decoration="underline" />
+      <mj-class name="goods" width="177px" padding="13px" />
+      <mj-class name="goods__links" font-size="16px" align="center" />
+
+    </mj-attributes>
+    <mj-font name="Raleway" href="https://fonts.googleapis.com/css?family=Raleway:300,400,500,600,800" />
+  </mj-head>
+  <mj-body background-color="#E5E5E5">
+    <mj-section>
+      <mj-column>
+        <mj-spacer height="20px" />
+      </mj-column>
+    </mj-section>
+    <mj-wrapper background-url="https://github.com/TheBreeng/test-mail/blob/master/img/bnr.png?raw=true" background-size="contain" background-repeat="no-repeat" background-color="#ffe6e6">
+      <mj-section padding-top="0">
+        <mj-group width="240px">
+          <mj-column vertical-align="middle">
+            <mj-image width="80px" src="https://github.com/TheBreeng/test-mail/blob/master/img/logo1.png?raw=true" alt="logo1" href="#" />
+          </mj-column>
+          <mj-column vertical-align="middle">
+            <mj-image width="80px" src="https://github.com/TheBreeng/test-mail/blob/master/img/logo2.png?raw=true" alt="logo2" href="#" />
+          </mj-column>
+        </mj-group>
+      </mj-section>
+      <mj-section>
+        <mj-column>
+          <mj-spacer height="35px" />
+          <mj-text font-family="'Raleway'" font-size="42px" align="center" font-weight="800" line-height="40px" text-transform="uppercase">
+            Финальная<br />
+            распродажа<br />
+            этого лета!<br />
+          </mj-text>
+        </mj-column>
+      </mj-section>
+      <mj-section>
+        <mj-group width="320px">
+          <mj-column mj-class="block-conditions">
+            <mj-spacer height="10px" />
+            <mj-image src="https://github.com/TheBreeng/test-mail/blob/master/img/wmelon1.png?raw=true" alt="wmelon1" href="#" width="115px" />
+            <mj-text mj-class="percent">
+              10%
+            </mj-text>
+            <mj-text mj-class="time">
+              до 19:00
+            </mj-text>
+          </mj-column>
+          <mj-column mj-class="block-conditions">
+            <mj-image src="https://github.com/TheBreeng/test-mail/blob/master/img/wmelon2.png?raw=true" alt="wmelon2" href="#" width="105px" />
+            <mj-text mj-class="percent">
+              8%
+            </mj-text>
+            <mj-text mj-class="time">
+              до 22:00
+            </mj-text>
+          </mj-column>
+          <mj-column mj-class="block-conditions">
+            <mj-image src="https://github.com/TheBreeng/test-mail/blob/master/img/wmelon3.png?raw=true" alt="wmelon3" href="#" width="70px" />
+            <mj-text mj-class="percent">
+              5%
+            </mj-text>
+            <mj-text mj-class="time">
+              до 00:00
+            </mj-text>
+          </mj-column>
+        </mj-group>
+      </mj-section>
+      <mj-section>
+        <mj-column mj-class="promo-code">
+          <mj-spacer height="20px" />
+          <mj-text align="center" font-size="14px">
+            Промокод
+          </mj-text>
+        </mj-column>
+      </mj-section>
+      <mj-section padding="0">
+        <mj-column border="1px dashed #000000" width="260px">
+          <mj-text align="center" font-size="28px" font-weight="bold" text-transform="uppercase" padding="10px">
+            GOODBYELETO
+          </mj-text>
+        </mj-column>
+      </mj-section>
+      <mj-section>
+        <mj-column>
+          <mj-spacer height="10px" />
+          <mj-button href="#" width="250px">
+            Получить скидку
+          </mj-button>
+          <mj-spacer height="110px" />
+        </mj-column>
+      </mj-section>
+    </mj-wrapper>
+    <mj-wrapper background-color="#ffffff">
+      <mj-section>
+        <mj-column width="500px">
+          <mj-text font-size="18px" line-height="28px">
+            Здравствуйте!
+            <br />
+            <br />
+            Теперь, когда вы готовы к школе и обновили спальни своих малышей,
+            пришла пора подумать о себе. Возможно, настало время поменять
+            подушку или вы давно собирались купить <a mj-class="links" href="#">шерстяное
+              одеяло</a> на тот
+            период, когда по ночам уже холодает, а отопление ещё не включили.
+            <br />
+            <br />
+            В конце концов, порадуйте себя новым комплектом <a mj-class="links" href="#">мягкого
+              постельного
+              белья</a> или <a mj-class="links" href="">красивым уютным пледом</a>! Но
+            торопитесь, <strong>скидка 10%</strong> на все
+            эти радости будет действовать только <strong>до 13:00</strong>.
+          </mj-text>
+        </mj-column>
+      </mj-section>
+      <mj-section>
+        <mj-column mj-class="goods">
+          <mj-image src="https://github.com/TheBreeng/test-mail/blob/master/img/goods1.png?raw=true" alt="goods1" href="#" />
+          <mj-spacer height="20px" />
+          <mj-text mj-class="goods__links">
+            <a mj-class="links" href="#">Подушки</a>
+          </mj-text>
+        </mj-column>
+        <mj-column mj-class="goods">
+          <mj-image src="https://github.com/TheBreeng/test-mail/blob/master/img/goods2.png?raw=true" alt="goods2" href="#" />
+          <mj-spacer height="20px" />
+          <mj-text mj-class="goods__links">
+            <a mj-class="links" href="#">Одеяла</a>
+          </mj-text>
+        </mj-column>
+        <mj-column mj-class="goods">
+          <mj-image src="https://github.com/TheBreeng/test-mail/blob/master/img/goods3.png?raw=true" alt="goods3" href="#" />
+          <mj-spacer height="20px" />
+          <mj-text mj-class="goods__links">
+            <a mj-class="links" href="#">Постельное бельё</a>
+          </mj-text>
+        </mj-column>
+      </mj-section>
+      <mj-section>
+        <mj-column mj-class="goods">
+          <mj-image src="https://github.com/TheBreeng/test-mail/blob/master/img/goods4.png?raw=true" alt="goods4" href="#" />
+          <mj-spacer height="20px" />
+          <mj-text mj-class="goods__links">
+            <a mj-class="links" href="#">Пледы и <br /> покрывала</a>
+          </mj-text>
+        </mj-column>
+        <mj-column mj-class="goods">
+          <mj-image src="https://github.com/TheBreeng/test-mail/blob/master/img/goods5.png?raw=true" alt="goods5" href="#" />
+          <mj-spacer height="20px" />
+          <mj-text mj-class="goods__links">
+            <a mj-class="links" href="#">Ванная</a>
+          </mj-text>
+        </mj-column>
+        <mj-column mj-class="goods">
+          <mj-image src="https://github.com/TheBreeng/test-mail/blob/master/img/goods6.png?raw=true" alt="goods6" href="#" />
+          <mj-spacer height="20px" />
+          <mj-text mj-class="goods__links">
+            <a mj-class="links" href="#">Кухня</a>
+          </mj-text>
+        </mj-column>
+      </mj-section>
+      <mj-section>
+        <mj-column>
+          <mj-button width="185px" href="#">
+            В магазин
+          </mj-button>
+        </mj-column>
+      </mj-section>
+      <mj-section>
+        <mj-column width="500px">
+          <mj-text align="center" color="#C4C4C4" font-size="14px" font-family="'Helvetica Neue', arial" line-height="20px">
+            Промокод действует на все товары, кроме разделов «Кровати» и «Матрасы». Cкидка не суммируется со скидками на сайте, скидками и подарками по другим промокодам и дисконтным картам. Размер скидки зависит от времени оформления заказа.
+          </mj-text>
+        </mj-column>
+      </mj-section>
+    </mj-wrapper>
+    <mj-section padding-top="20px">
+      <mj-column width="320px">
+        <mj-social inner-padding="10px">
+          <mj-social-element href="#" alt="vk" src="https://github.com/TheBreeng/test-mail/blob/master/img/vk.png?raw=true" icon-size="25px" />
+          <mj-social-element href="#" alt="fb" src="https://github.com/TheBreeng/test-mail/blob/master/img/fb.png?raw=true" icon-size="25px" />
+          <mj-social-element href="#" alt="tw" src="https://github.com/TheBreeng/test-mail/blob/master/img/tw.png?raw=true" icon-size="25px" />
+          <mj-social-element href="#" alt="in" src="https://github.com/TheBreeng/test-mail/blob/master/img/in.png?raw=true" icon-size="25px" />
+          <mj-social-element href="#" alt="yt" src="https://github.com/TheBreeng/test-mail/blob/master/img/yt.png?raw=true" icon-size="25px" />
+          <mj-social-element href="#" alt="ok" src="https://github.com/TheBreeng/test-mail/blob/master/img/ok.png?raw=true" icon-size="25px" />
+        </mj-social>
+      </mj-column>
+      <mj-column vertical-align="middle" padding="25px" width="180px">
+        <mj-text color="#2ABE80" font-size="17px" align="center">
+          8 800 555 60 55
+        </mj-text>
+      </mj-column>
+    </mj-section>
+    <mj-section>
+      <mj-column width="540px">
+        <mj-text color="#A3A3A3" font-size="14px">
+          Данное письмо было отправлено на hafizova.i@gmail.com. Пожалуйста, добавьте
+          mailer@spim.ru в вашу адресную книгу, чтобы наши письма не попадали в спам.
+        </mj-text>
+      </mj-column>
+    </mj-section>
+    <mj-section padding-top="15px" padding-bottom="25px">
+      <mj-group width="280px">
+        <mj-column vertical-align="middle">
+          <mj-text align="center">
+            <img src="https://github.com/TheBreeng/test-mail/blob/master/img/x.png?raw=true" alt="x" width="14px" font-size="14px" />
+            <a href="#" color="#A3A3A3">Отписаться</a>
+          </mj-text>
+        </mj-column>
+        <mj-column vertical-align="middle">
+          <mj-text align="center">
+            <img src="https://github.com/TheBreeng/test-mail/blob/master/img/web.png?raw=true" alt="web" width="14px" font-size="14px" />
+            <a href="#" color="#A3A3A3">Веб-версия</a>
+          </mj-text>
+        </mj-column>
+      </mj-group>
+    </mj-section>
+  </mj-body>
+</mjml>
