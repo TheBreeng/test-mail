@@ -9,8 +9,8 @@
       <mj-class name="block-conditions" vertical-align="middle" padding="0" />
       <mj-class name="percent" font-family="'Raleway'" font-size="40px" font-weight="700" color="#2E2E2E" align="center" />
       <mj-class name="time" font-family="'Arial', sans-serif" font-size="14px" align="center" />
-      <mj-class name="links" color="#476FC6" text-decoration="underline" />
-      <mj-class name="goods" width="177px" padding="13px" />
+      <mj-class name="goods" width="150px" />
+      <mj-class name="links" style="color:#476FC6;text-decoration:underline;" />
       <mj-class name="goods__links" font-size="16px" align="center" />
 
     </mj-attributes>
@@ -22,7 +22,7 @@
         <mj-spacer height="20px" />
       </mj-column>
     </mj-section>
-    <mj-wrapper background-url="https://github.com/TheBreeng/test-mail/blob/master/img/bnr.png?raw=true" background-size="contain" background-repeat="no-repeat" background-color="#ffe6e6">
+    <mj-wrapper background-url="https://github.com/TheBreeng/test-mail/blob/master/img/bnr.png?raw=true" background-size="cover" background-repeat="no-repeat" background-color="#ffe6e6">
       <mj-section padding-top="0">
         <mj-group width="240px">
           <mj-column vertical-align="middle">
@@ -36,7 +36,7 @@
       <mj-section>
         <mj-column>
           <mj-spacer height="35px" />
-          <mj-text font-family="'Raleway'" font-size="42px" align="center" font-weight="800" line-height="40px" text-transform="uppercase">
+          <mj-text font-family="'Raleway'" font-size="40px" align="center" font-weight="800" line-height="40px" text-transform="uppercase">
             Финальная<br />
             распродажа<br />
             этого лета!<br />
@@ -123,50 +123,54 @@
         </mj-column>
       </mj-section>
       <mj-section>
-        <mj-column mj-class="goods">
-          <mj-image src="https://github.com/TheBreeng/test-mail/blob/master/img/goods1.png?raw=true" alt="goods1" href="#" />
-          <mj-spacer height="20px" />
-          <mj-text mj-class="goods__links">
-            <a mj-class="links" href="#">Подушки</a>
-          </mj-text>
-        </mj-column>
-        <mj-column mj-class="goods">
-          <mj-image src="https://github.com/TheBreeng/test-mail/blob/master/img/goods2.png?raw=true" alt="goods2" href="#" />
-          <mj-spacer height="20px" />
-          <mj-text mj-class="goods__links">
-            <a mj-class="links" href="#">Одеяла</a>
-          </mj-text>
-        </mj-column>
-        <mj-column mj-class="goods">
-          <mj-image src="https://github.com/TheBreeng/test-mail/blob/master/img/goods3.png?raw=true" alt="goods3" href="#" />
-          <mj-spacer height="20px" />
-          <mj-text mj-class="goods__links">
-            <a mj-class="links" href="#">Постельное бельё</a>
-          </mj-text>
-        </mj-column>
+        <mj-group width="530px">
+          <mj-column>
+            <mj-image mj-class="goods" src="https://github.com/TheBreeng/test-mail/blob/master/img/goods1.png?raw=true" alt="goods1" href="#" />
+            <mj-spacer height="20px" />
+            <mj-text mj-class="goods__links">
+              <a mj-class="links" href="#">Подушки</a>
+            </mj-text>
+          </mj-column>
+          <mj-column>
+            <mj-image mj-class="goods" src="https://github.com/TheBreeng/test-mail/blob/master/img/goods2.png?raw=true" alt="goods2" href="#" />
+            <mj-spacer height="20px" />
+            <mj-text mj-class="goods__links">
+              <a mj-class="links" href="#">Одеяла</a>
+            </mj-text>
+          </mj-column>
+          <mj-column>
+            <mj-image mj-class="goods" src="https://github.com/TheBreeng/test-mail/blob/master/img/goods3.png?raw=true" alt="goods3" href="#" />
+            <mj-spacer height="20px" />
+            <mj-text mj-class="goods__links">
+              <a mj-class="links" href="#">Постельное бельё</a>
+            </mj-text>
+          </mj-column>
+        </mj-group>
       </mj-section>
       <mj-section>
-        <mj-column mj-class="goods">
-          <mj-image src="https://github.com/TheBreeng/test-mail/blob/master/img/goods4.png?raw=true" alt="goods4" href="#" />
-          <mj-spacer height="20px" />
-          <mj-text mj-class="goods__links">
-            <a mj-class="links" href="#">Пледы и <br /> покрывала</a>
-          </mj-text>
-        </mj-column>
-        <mj-column mj-class="goods">
-          <mj-image src="https://github.com/TheBreeng/test-mail/blob/master/img/goods5.png?raw=true" alt="goods5" href="#" />
-          <mj-spacer height="20px" />
-          <mj-text mj-class="goods__links">
-            <a mj-class="links" href="#">Ванная</a>
-          </mj-text>
-        </mj-column>
-        <mj-column mj-class="goods">
-          <mj-image src="https://github.com/TheBreeng/test-mail/blob/master/img/goods6.png?raw=true" alt="goods6" href="#" />
-          <mj-spacer height="20px" />
-          <mj-text mj-class="goods__links">
-            <a mj-class="links" href="#">Кухня</a>
-          </mj-text>
-        </mj-column>
+        <mj-group width="530px">
+          <mj-column>
+            <mj-image mj-class="goods" src="https://github.com/TheBreeng/test-mail/blob/master/img/goods4.png?raw=true" alt="goods4" href="#" />
+            <mj-spacer height="20px" />
+            <mj-text mj-class="goods__links">
+              <a mj-class="links" href="#">Пледы и <br /> покрывала</a>
+            </mj-text>
+          </mj-column>
+          <mj-column>
+            <mj-image mj-class="goods" src="https://github.com/TheBreeng/test-mail/blob/master/img/goods5.png?raw=true" alt="goods5" href="#" />
+            <mj-spacer height="20px" />
+            <mj-text mj-class="goods__links">
+              <a mj-class="links" href="#">Ванная</a>
+            </mj-text>
+          </mj-column>
+          <mj-column>
+            <mj-image mj-class="goods" src="https://github.com/TheBreeng/test-mail/blob/master/img/goods6.png?raw=true" alt="goods6" href="#" />
+            <mj-spacer height="20px" />
+            <mj-text mj-class="goods__links">
+              <a mj-class="links" href="#">Кухня</a>
+            </mj-text>
+          </mj-column>
+        </mj-group>
       </mj-section>
       <mj-section>
         <mj-column>
@@ -185,7 +189,7 @@
     </mj-wrapper>
     <mj-section padding-top="20px">
       <mj-column width="320px">
-        <mj-social inner-padding="10px">
+        <mj-social inner-padding="5px">
           <mj-social-element href="#" alt="vk" src="https://github.com/TheBreeng/test-mail/blob/master/img/vk.png?raw=true" icon-size="25px" />
           <mj-social-element href="#" alt="fb" src="https://github.com/TheBreeng/test-mail/blob/master/img/fb.png?raw=true" icon-size="25px" />
           <mj-social-element href="#" alt="tw" src="https://github.com/TheBreeng/test-mail/blob/master/img/tw.png?raw=true" icon-size="25px" />
@@ -212,14 +216,12 @@
       <mj-group width="280px">
         <mj-column vertical-align="middle">
           <mj-text align="center">
-            <img src="https://github.com/TheBreeng/test-mail/blob/master/img/x.png?raw=true" alt="x" width="14px" font-size="14px" />
-            <a href="#" color="#A3A3A3">Отписаться</a>
+            <a href="#" style="color:#A3A3A3; text-decoration:none !important; font-size:14px;"><img style="vertical-align:middle;" src="https://github.com/TheBreeng/test-mail/blob/master/img/x.png?raw=true" alt="x" width="14px" /> Отписаться</a>
           </mj-text>
         </mj-column>
         <mj-column vertical-align="middle">
           <mj-text align="center">
-            <img src="https://github.com/TheBreeng/test-mail/blob/master/img/web.png?raw=true" alt="web" width="14px" font-size="14px" />
-            <a href="#" color="#A3A3A3">Веб-версия</a>
+            <a href="#" style="color:#A3A3A3; text-decoration:none !important; font-size:14px;"><img style="vertical-align:middle;" src="https://github.com/TheBreeng/test-mail/blob/master/img/web.png?raw=true" alt="web" width="14px" /> Веб-версия</a>
           </mj-text>
         </mj-column>
       </mj-group>
